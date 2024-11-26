@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug yolo.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "yolo.py",
+            "console": "integratedTerminal",
+            "args": "--epochs 2 --device cuda:0 scn rotate",
+            "python": "/home/p/papstf/mambaforge/envs/sgdp/bin/python",
+            "env": {
+                "PYTHONPATH": "/home/p/papstf/mambaforge/envs/sgdp/bin/python"
+            },
+        }
+    ]
+}
